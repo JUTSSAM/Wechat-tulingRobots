@@ -67,7 +67,7 @@ class wechatCallbackapiTest
             // }
 
             if ($keyword) {
-                $key = '0ad13758a685297b8acbb44b122478e8';
+                $key = '**********';//tuling官方网站分配
                 $info = $keyword;
                 $url = 'http://www.tuling123.com/openapi/api';
                 $post_string = 'key='.$key.'&info='.$info;
