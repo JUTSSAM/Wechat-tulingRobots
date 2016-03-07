@@ -1,5 +1,5 @@
 <?php
-define("TOKEN", "jutssam");//微信后台约定的TOKEN
+define("TOKEN", "微信后台约定的TOKEN");//
 $wechatObj = new wechatCallbackapiTest();
 if (isset($_GET['echostr'])) {
     $wechatObj->valid();
@@ -67,7 +67,7 @@ class wechatCallbackapiTest
             // }
 
             if ($keyword) {
-                $key = '**********';//tuling官方网站分配
+                $key = 'tuling官方网站分配给每个用户不同的API key';//
                 $info = $keyword;
                 $url = 'http://www.tuling123.com/openapi/api';
                 $post_string = 'key='.$key.'&info='.$info;
